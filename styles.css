@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc, #00c6ff); /* Blue gradient for the body */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.nav {
+    background: linear-gradient(45deg, #003366, #0077b6, #00aaff); /* Blue gradient for nav bar */
+    padding: 15px 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    color: #ffffff; /* White text for better contrast on blue background */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #00c6ff); /* Gradient with blue tones for the hero section */
+}
+
+/* Profile Image - Circular with 50% border-radius */
+.img-circle {
+    border-radius: 50%;
+    width: 150px; /* Adjust width */
+    height: 150px; /* Adjust height */
+    object-fit: cover;
+    margin-bottom: 20px; /* Add spacing between the image and name */
+}
+
+h1 {
+    background: linear-gradient(90deg, #00c6ff, #1e3c72, #2575fc); /* Gradient text for name with blue tones */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.5em;
+}
+
+p {
+    background: linear-gradient(45deg, #00c6ff, #00aaff, #2575fc); /* Gradient text for description with blue colors */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.2em;
+}
+
+.btn {
+    background: linear-gradient(135deg, #00c6ff, #2575fc, #1e3c72); /* Blue gradient for buttons */
+    color: #121212;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.projects .grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project-card {
+    background: linear-gradient(45deg, #003366, #006bb6, #004c99); /* Gradient for project cards with blue tones */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-card h3 {
+    background: linear-gradient(90deg, #00c6ff, #0077b6, #1e3c72); /* Gradient text for project titles */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(45deg, #004c99, #006bb6, #1e3c72); /* Gradient for input fields with blue tones */
+    color: #ffffff;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    color: #b3d4fc; /* Light blue placeholder color */
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(45deg, #003366, #0077b6, #00aaff); /* Blue gradient background for footer */
+    padding: 10px;
+}
+
+footer p {
+    color: #ffffff; /* White text for footer */
+}
+
+.dark-mode {
+    background: linear-gradient(135deg, #ffffff, #f5f5f5, #e0e0e0); /* Light gradient for dark mode */
+    color: #121212;
+}

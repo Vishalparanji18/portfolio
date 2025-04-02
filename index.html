@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container">
+            <a href="#" class="logo">Vishal</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <!-- Profile Image with 50% border radius -->
+            <img src="vpj3.jpg" alt="Profile Picture" class="img-circle">
+            <h1>PARANJI JANARDHAN VISHAL</h1>
+            <p>BTech CSE | Web Developer | Blockchain Enthusiast</p>
+            <button onclick="toggleDarkMode()" class="btn">Toggle Dark Mode</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Passionate about Web Development, Blockchain, and Cloud Computing. Currently improving Java, working on competitive programming, and developing innovative safety solutions.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Web Development</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Web development project showcasing responsive design.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Cloud-based application optimized for scalability.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>AI-powered solution for data analysis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Vishal | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+
+</html>
